@@ -1,4 +1,4 @@
 {
   "**/*": ["yarn lint:prettier"],
-  "**/*.{js,ts}": ["yarn lint:eslint", "yarn lint:css"]
+  "**/*.{js,jsx,ts,tsx}": ["yarn lint:eslint", "yarn lint:css"]
 }
